@@ -1,4 +1,10 @@
+<div align="center">
+
 # Proyecto CRUD De Clientes + Elaborado Por: Alejandro De Mendoza
+
+</div>
+
+---
 
 Este proyecto es una implementación de un sistema CRUD (Crear, Leer, Actualizar, Eliminar) de clientes utilizando PHP y MySQL, con una interfaz web sencilla en HTML y CSS. Los datos de los clientes son almacenados en una base de datos MySQL y pueden ser gestionados mediante una API REST.
 
@@ -70,3 +76,12 @@ Interfaz web
 ## Contribución: 
 
 - Si deseas contribuir a este proyecto, haz un fork del repositorio, crea una nueva rama y envía tus cambios con un pull request.
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
