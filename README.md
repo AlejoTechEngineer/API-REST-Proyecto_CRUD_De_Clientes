@@ -8,6 +8,19 @@
 
 Este proyecto es una implementación de un sistema CRUD (Crear, Leer, Actualizar, Eliminar) de clientes utilizando PHP y MySQL, con una interfaz web sencilla en HTML y CSS. Los datos de los clientes son almacenados en una base de datos MySQL y pueden ser gestionados mediante una API REST.
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[index.html - interfaz de consumo] --> B[api-rest/create_client.php]
+    A --> C[api-rest/get_all_client.php]
+    A --> D[api-rest/update_client.php]
+    A --> E[api-rest/delete_client.php]
+    B & C & D & E --> F[includes/Database.class.php - PDO]
+    F --> G[includes/Client.class.php]
+    G --> H[(MySQL - setup.sql)]
+```
+
 ## Tecnologías utilizadas
 
 - **PHP**: Para manejar la lógica del backend.
